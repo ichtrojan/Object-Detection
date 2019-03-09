@@ -13,8 +13,8 @@ class App extends React.Component {
         audio: false,
         video: {
           facingMode: "user",
-          width: 1000,
-          height: 1000
+          width: 600😎,
+          height: 500
         }
       })
       .then(stream => {
@@ -77,8 +77,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <video id="video" width="1000" height="1000" />
-        <canvas id="canvas" width="1000" height="1000" />
+        <video id="video" width="600" height="500" />
+        <canvas id="canvas" width="600" height="500" />
       </div>
     );
   }
