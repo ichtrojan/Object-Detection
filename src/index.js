@@ -13,7 +13,7 @@ class App extends React.Component {
         audio: false,
         video: {
           facingMode: "user",
-          width: 600😎,
+          width: 600,
           height: 500
         }
       })
