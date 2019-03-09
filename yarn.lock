@@ -1023,52 +1023,53 @@
     "@svgr/plugin-svgo" "^4.0.3"
     loader-utils "^1.1.0"
 
-"@tensorflow-models/coco-ssd@^0.1.1":
+"@tensorflow-models/coco-ssd@0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@tensorflow-models/coco-ssd/-/coco-ssd-0.1.1.tgz#e546d3cacd0c11e9c177c591e7e8ff0eb8fd150b"
   integrity sha512-b3OxP0hA9jKKKFnoi/etAdyHaf+dH1aiEpQSAZQf08/jVllp1I1ZhtLz1MTQhaT2hLk/nXZvSVkg18u+ciGBzg==
 
-"@tensorflow/tfjs-converter@0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-converter/-/tfjs-converter-0.7.2.tgz#49e578f71eb82d821af05176754c3452b42cfe9c"
-  integrity sha512-m46mtaF57x2NcxlNUKdJOCUp3ZSJU9bp9MzyEQ0Iz1bW2kKIxx1DDRjuP0fAeHX5H5Mh/tWIHB9yK6NwLz+aQQ==
+"@tensorflow/tfjs-converter@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-converter/-/tfjs-converter-0.7.0.tgz#a9766d0ccf2fa6ec45815ab2973a39ceb3d05667"
+  integrity sha512-hdhaFnLKGI/GLTaAoW7zUMc4QJ5T1RxW9jT/0otgDfqwG/lZvSxqxRFULO6omTGs+w5mFzIGn5erm5/ZwZpbFg==
   dependencies:
     "@types/long" "~3.0.32"
     protobufjs "~6.8.6"
 
-"@tensorflow/tfjs-core@0.14.5":
-  version "0.14.5"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-core/-/tfjs-core-0.14.5.tgz#17c3beeec31c4cd92b0f79a5ef30c4975a11e408"
-  integrity sha512-CSUgKuC17J1Ylr1s6iD1k2/tJr9lD16sUEjtzJbtiuTYCELOwujGK/1htunA7o3BwLuU7aqEI92MoKElEKa7qA==
+"@tensorflow/tfjs-core@0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-core/-/tfjs-core-0.14.0.tgz#b279aac3829552a40e1894cd9b77c73416fe2b47"
+  integrity sha512-XzsLQma506xCeM2NmIp+AcFtCPB4XE/VQ5ljJmMUCx0RxUWcmtJJ6FwvXsMMlS3TbHPImnxO5PwZ/5ZTgktgdg==
   dependencies:
     "@types/seedrandom" "2.4.27"
     "@types/webgl-ext" "0.0.30"
     "@types/webgl2" "0.0.4"
     seedrandom "2.4.3"
 
-"@tensorflow/tfjs-data@0.1.7":
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-data/-/tfjs-data-0.1.7.tgz#8a4e43313b3d63cdfab719c0c1c47ced2ef321e3"
-  integrity sha512-RENjeBdBLq7GS9594kQx2GbM0WQV16VfxzzB0j2sq5vJh9GZQi2DB5Emq2LqZWs5rSeh7PDHZylGOn/ve6f8PA==
+"@tensorflow/tfjs-data@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-data/-/tfjs-data-0.1.2.tgz#01bd29e2467457819c1a276c5a493e08a7a4e69d"
+  integrity sha512-AcCir2RUKIfNkmJN55LOHwHAgeYGBkRBf3c7wAFo1J270d9SxVi9s3kHvtQK4H4SDiDW5VXQohIbuk1Cb2EmsQ==
   dependencies:
     "@types/node-fetch" "^2.1.2"
     node-fetch "~2.1.2"
     seedrandom "~2.4.3"
+    utf8 "~2.1.2"
 
-"@tensorflow/tfjs-layers@0.9.2":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-layers/-/tfjs-layers-0.9.2.tgz#f5c1918d1a9660096f259cd1f99f59e689b41b69"
-  integrity sha512-peB824cEXRBy5IgZPIodd8zpQ/54VGOYbR+zY+Q1Le7v3Np05EoDcL8Z98MtpBHo6jOM7b/3Lf2zjfJVv2qxJA==
+"@tensorflow/tfjs-layers@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs-layers/-/tfjs-layers-0.9.0.tgz#2d9f8cfd36b7d6c694e11cd93e0a178ff96afa2b"
+  integrity sha512-HfwEwddSRKa/Q846joHsS32HD009z0cYZzBtARG6iiYVEKQBixPtcGhdjuLg4ZoI0id/etpds2Kg+jT/f1p5sQ==
 
-"@tensorflow/tfjs@^0.14.0":
-  version "0.14.2"
-  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs/-/tfjs-0.14.2.tgz#f38fa572286dadfe981c219f5639defd586c20c4"
-  integrity sha512-d+kBdhn3L/BOIwwc44V1lUrs0O5s49ujhYXVHT9Hs6y3yq+OqPK10am16H1fNcxeMn12/3gGphebglObTD0/Sg==
+"@tensorflow/tfjs@0.14.0":
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/@tensorflow/tfjs/-/tfjs-0.14.0.tgz#77d3a2f692a349b7adf0c4b00af221135cc682ad"
+  integrity sha512-L6ieTnEJUrD/bgqN1nukh+ywlhrtti1a/eFcTRo+9zWc6csiblPfKbEEJHBTWg4JmEpiuzu6be0Gl4wSDxiLJw==
   dependencies:
-    "@tensorflow/tfjs-converter" "0.7.2"
-    "@tensorflow/tfjs-core" "0.14.5"
-    "@tensorflow/tfjs-data" "0.1.7"
-    "@tensorflow/tfjs-layers" "0.9.2"
+    "@tensorflow/tfjs-converter" "0.7.0"
+    "@tensorflow/tfjs-core" "0.14.0"
+    "@tensorflow/tfjs-data" "0.1.2"
+    "@tensorflow/tfjs-layers" "0.9.0"
 
 "@types/long@^4.0.0":
   version "4.0.0"
@@ -8072,15 +8073,15 @@ react-dev-utils@^8.0.0:
     strip-ansi "5.0.0"
     text-table "0.2.0"
 
-react-dom@^16.5.2:
-  version "16.8.4"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.8.4.tgz#1061a8e01a2b3b0c8160037441c3bf00a0e3bc48"
-  integrity sha512-Ob2wK7XG2tUDt7ps7LtLzGYYB6DXMCLj0G5fO6WeEICtT4/HdpOi7W/xLzZnR6RCG1tYza60nMdqtxzA8FaPJQ==
+react-dom@16.5.2:
+  version "16.5.2"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.5.2.tgz#b69ee47aa20bab5327b2b9d7c1fe2a30f2cfa9d7"
+  integrity sha512-RC8LDw8feuZOHVgzEf7f+cxBr/DnKdqp56VU0lAs1f4UfKc4cU8wU4fTq/mgnvynLQo8OtlPC19NUFh/zjZPuA==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.4"
+    schedule "^0.5.0"
 
 react-error-overlay@^5.1.4:
   version "5.1.4"
@@ -8092,7 +8093,7 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
   integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
 
-react-magic-dropzone@^1.0.1:
+react-magic-dropzone@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-magic-dropzone/-/react-magic-dropzone-1.0.1.tgz#bfd25b77b57e7a04aaef0a28910563b707ee54df"
   integrity sha1-v9Jbd7V+egSq7wookQVjtwfuVN8=
@@ -8151,15 +8152,15 @@ react-scripts@^2.0.3:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@^16.5.2:
-  version "16.8.4"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
-  integrity sha512-0GQ6gFXfUH7aZcjGVymlPOASTuSjlQL4ZtVC5YKH+3JL6bBLCVO21DknzmaPlI90LN253ojj02nsapy+j7wIjg==
+react@16.5.2:
+  version "16.5.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.5.2.tgz#19f6b444ed139baa45609eee6dc3d318b3895d42"
+  integrity sha512-FDCSVd3DjVTmbEAjUNX6FgfAmQ+ypJfHUsqUJOYNCBUp1h8lqmtC+0mXJ+JjsWx4KAVTkk1vKd1hLQPvEviSuw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.4"
+    schedule "^0.5.0"
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -8601,12 +8602,11 @@ sax@^1.2.4, sax@~1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-scheduler@^0.13.4:
-  version "0.13.4"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.4.tgz#8fef05e7a3580c76c0364d2df5e550e4c9140298"
-  integrity sha512-cvSOlRPxOHs5dAhP9yiS/6IDmVAVxmk33f0CtTJRkmUWcb1Us+t7b1wqdzoC0REw2muC9V5f1L/w5R5uKGaepA==
+schedule@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/schedule/-/schedule-0.5.0.tgz#c128fffa0b402488b08b55ae74bb9df55cc29cc8"
+  integrity sha512-HUcJicG5Ou8xfR//c2rPT0lPIRR09vVvN81T9fqfVgBmhERUbDEQoYKjpBxbueJnCPpSu2ujXzOnRQt6x9o/jw==
   dependencies:
-    loose-envify "^1.1.0"
     object-assign "^4.1.1"
 
 schema-utils@^0.4.4:
@@ -9682,6 +9682,11 @@ use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
   integrity sha512-cwESVXlO3url9YWlFW/TA9cshCEhtu7IKJ/p5soJ/gGpj7vbvFrAY/eIioQ6Dw23KjZhYgiIo8HOs1nQ2vr/oQ==
+
+utf8@~2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/utf8/-/utf8-2.1.2.tgz#1fa0d9270e9be850d9b05027f63519bf46457d96"
+  integrity sha1-H6DZJw6b6FDZsFAn9jUZv0ZFfZY=
 
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
