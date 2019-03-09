@@ -1,0 +1,19 @@
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#video {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  background-color: #ffffff;
+}
