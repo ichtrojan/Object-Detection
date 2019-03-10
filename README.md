@@ -29,3 +29,9 @@ Visit `localhost:3000` on your browser (Excluding Safari) to test the applicatio
 If permission is granted, you can proceed to test your application.
 
 ![test](https://res.cloudinary.com/ichtrojan/image/upload/v1552175031/Screenshot_2019-03-10_at_12.37.39_AM_ovl8y5.png)
+
+---
+
+I wrote this README while I was bored, so if anything doesn't make sense it's totally my fault, do send in a PR for anything you'd like to correct, add or remove.
+
+E go be ✌️
